@@ -21,7 +21,7 @@ public class Main {
 interface Formula{
     double calculate(int a); // musi być jedna metoda domyślna na dany interfejs
 
-    default double sqrt(int a){
+    default double sqrt(int a){ // motoda domyślna - może mieć właściwąściwą implementacje w ciele interfejsy
         return Math.sqrt(a);
     }
 }
