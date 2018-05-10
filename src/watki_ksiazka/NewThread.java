@@ -2,6 +2,7 @@ package watki_ksiazka;
 
 public class NewThread implements Runnable{
     Thread t;
+    // me: test
 
     public NewThread() {
         t = new Thread(this, "Przykladowy watek");
